@@ -74,7 +74,7 @@ Use responsibly!
 
 ## 🤝 Contributing
 
-Found a bug or have an idea for an awesome new feature? Feel free to open an issue or submit a pull request.
+Found a bug or have an idea for an awesome new feature? Feel free to open an [issue](https://github.com/SparkleSavvy/CleanWinInst/issues) or submit a pull request.
 
 ---
 
@@ -154,4 +154,4 @@ Found a bug or have an idea for an awesome new feature? Feel free to open an iss
 
 ## 🤝 Внесение своего вклада
 
-Нашли ошибку или есть идея для новой функции? Не стесняйтесь открыть issue или отправить запрос на включение внесенных изменений.
+Нашли ошибку или есть идея для новой функции? Не стесняйтесь открыть [issue](https://github.com/SparkleSavvy/CleanWinInst/issues) или отправить запрос на включение внесенных изменений.
