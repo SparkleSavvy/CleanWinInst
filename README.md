@@ -1,4 +1,4 @@
-# 🚀 Ultimate Windows Unattended Installation & Customization Script [ENG]
+# <img width="32" height="32" alt="ic" src="https://github.com/user-attachments/assets/bd576e3b-c712-4ae4-9a39-13a88fa83639" /> Ultimate Windows Unattended Installation & Customization Script [ENG]
 
 Welcome to the ultimate, all-in-one solution for deploying a clean, bresh, and highly customized Windows installation — completely unattended. Forget about tedious post-installation tweaking. This script does it all for you, from disabling bloatware to optimizing system performance and personalizing your desktop experience.
 
@@ -8,20 +8,20 @@ Perfect for system administrators, IT professionals, homelab enthusiasts, or any
 
 ---
 
-## ✨ Key Features
+## <img width="30" height="30" alt="moon-stars" src="https://github.com/user-attachments/assets/9ac3361b-2726-425b-9cd9-4f611d35b3c7" /> Key Features
 
-### 🧹 **Bloatware Removal**
+### <img width="30" height="30" alt="broom" src="https://github.com/user-attachments/assets/228b3c18-5e58-4e10-a119-3cdc9e4fba3c" /> **Bloatware Removal**
 *   **Prevents installation** of dozens of unwanted built-in apps (Cortana, Copilot, Xbox, Mail, Calendar, OneDrive, Sticky Notes, Weather, etc.).
 *   Removes optional Windows **Features** (Remote Desktop Connection, Recall, Snipping Tool).
 *   Removes system **Capabilities** (Internet Explorer, Windows Media Player, Fax and Scan, Math Recognizer, etc.).
 
-### 🛡️ **Privacy & Security Hardening (Your Way)**
+### <img width="30" height="30" alt="shield" src="https://github.com/user-attachments/assets/5c688a51-8a1b-4cda-8a4f-29f7664851ba" /> **Privacy & Security Hardening (Your Way)**
 *   **Disables Windows Defender** during installation for maximum flexibility (use at your own risk).
 *   Disables **SmartScreen**, **Fast Startup**, **System Restore**, **Device Encryption**, and **Windows Update**.
 *   Blocks **Bing integration**, **app suggestions**, **news and interests**, and telemetry where possible.
 *   Prevents automatic reboots after updates.
 
-### 🎨 **Visual & UI Customization**
+### <img width="30" height="30" alt="palette" src="https://github.com/user-attachments/assets/1478ea54-2ef9-4346-995c-854aeeae4f79" /> **Visual & UI Customization**
 *   Sets a **Dark Theme** for both System and Apps.
 *   Applies a custom **Accent Color** (`#8080FF` - a nice blue).
 *   Configures the **Taskbar**: Left-aligned, hides search, hides Task View, shows all tray icons.
@@ -29,7 +29,7 @@ Perfect for system administrators, IT professionals, homelab enthusiasts, or any
 *   Uses **Classic Context Menu** and shows **File Extensions**.
 *   Launches File Explorer to **"This PC"** instead of "Quick Access".
 
-### ⚙️ **System & Performance Optimization**
+### <img width="30" height="30" alt="gear-six" src="https://github.com/user-attachments/assets/33348173-6dac-48ea-a766-5f9c6856c77a" /> **System & Performance Optimization**
 *   Enables **Long File Paths** support.
 *   Allows **PowerShell Scripts** to run (`RemoteSigned` policy).
 *   Disables last access timestamp for files (`DisableLastAccess`).
@@ -37,13 +37,13 @@ Perfect for system administrators, IT professionals, homelab enthusiasts, or any
 *   Sets Active Hours to prevent disruptive updates.
 *   Installs **VMware Tools** automatically if the ISO is attached.
 
-### 👤 **User & Account Setup**
+### <img width="30" height="30" alt="user" src="https://github.com/user-attachments/assets/8c27a820-b281-42ee-880d-f3d76b71cf78" /> **User & Account Setup**
 *   Creates a local administrator account named **"User"** with no password (for initial setup).
 *   Enables **Auto-Logon** for the first boot only.
 *   Applies all customizations to the **Default User profile**, so every new user gets the same clean setup.
 *   Sets the system **Geolocation** to Russia (ID 203) and configures keyboard layouts for US and Russian.
 
-### 🌐 **Regional & Language Settings**
+### <img width="30" height="30" alt="planet" src="https://github.com/user-attachments/assets/a0d1e829-3dee-4347-851b-45b02336d7b7" /> **Regional & Language Settings**
 *   Primary UI Language: **English (United States)**
 *   Additional Keyboard Layout: **Russian**
 *   System Locale: **en-US**
@@ -51,7 +51,7 @@ Perfect for system administrators, IT professionals, homelab enthusiasts, or any
 
 ---
 
-## 📥 How to Use
+## <img width="30" height="30" alt="book" src="https://github.com/user-attachments/assets/cd43411d-536e-49ab-a0ce-17931ec549af" /> How to Use
 
 1.  **Download** the `unattend.xml` file.
 2.  Place it in the root directory of your Windows installation media (USB drive or extracted ISO folder), alongside the `sources`, `boot`, etc., folders.
@@ -62,7 +62,7 @@ Perfect for system administrators, IT professionals, homelab enthusiasts, or any
 
 ---
 
-## ⚠️ Disclaimer
+## <img width="30" height="30" alt="seal-warning" src="https://github.com/user-attachments/assets/af8ec666-e682-4600-ae22-e3b69e2f570b" /> Disclaimer
 
 This script is provided "as is" for educational and convenience purposes. It makes significant changes to your Windows installation.
 
@@ -72,13 +72,13 @@ Use responsibly!
 
 ---
 
-## 🤝 Contributing
+## <img width="30" height="30" alt="handshake" src="https://github.com/user-attachments/assets/89ec00de-c763-480d-8c8a-c2201c999b53" /> Contributing
 
 Found a bug or have an idea for an awesome new feature? Feel free to open an [issue](https://github.com/SparkleSavvy/CleanWinInst/issues) or submit a pull request.
 
 ---
 
-# 🚀 Универсальный скрипт для автоматической установки и настройки Windows [RUS]
+# <img width="30" height="30" alt="ic" src="https://github.com/user-attachments/assets/bd576e3b-c712-4ae4-9a39-13a88fa83639" /> Универсальный скрипт для автоматической установки и настройки Windows [RUS]
 
 Добро пожаловать в универсальное, комплексное решение для развертывания чистой, свежей и глубоко кастомизированной установки Windows — полностью в автоматическом режиме. Забудьте о рутинной настройке после установки. Этот скрипт сделает всё за вас: от удаления ненужного софта до оптимизации производительности и персонализации интерфейса.
 
@@ -88,20 +88,20 @@ Found a bug or have an idea for an awesome new feature? Feel free to open an [is
 
 ---
 
-## ✨ Ключевые Возможности
+## <img width="30" height="30" alt="moon-stars" src="https://github.com/user-attachments/assets/9ac3361b-2726-425b-9cd9-4f611d35b3c7" /> Ключевые Возможности
 
-### 🧹 **Удаление Ненужного Софта (Bloatware)**
+### <img width="30" height="30" alt="broom" src="https://github.com/user-attachments/assets/228b3c18-5e58-4e10-a119-3cdc9e4fba3c" /> **Удаление Ненужного Софта (Bloatware)**
 *   **Предотвращает установку** десятков встроенных приложений (Cortana, Copilot, Xbox, Почта, Календарь, OneDrive, Записки, Погода и т.д.).
 *   Удаляет дополнительные **Компоненты Windows** (Подключение к удаленному рабочему столу, Recall, Ножницы).
 *   Удаляет системные **Возможности** (Internet Explorer, Проигрыватель Windows Media, Факс и сканирование, Распознаватель математики и т.д.).
 
-### 🛡️ **Приватность и Безопасность (На Ваш Вкус)**
+### <img width="30" height="30" alt="shield" src="https://github.com/user-attachments/assets/5c688a51-8a1b-4cda-8a4f-29f7664851ba" /> **Приватность и Безопасность (На Ваш Вкус)**
 *   **Отключает Защитник Windows** во время установки для максимальной гибкости (используйте на свой страх и риск).
 *   Отключает **SmartScreen**, **Быстрый запуск**, **Восстановление системы**, **Шифрование устройства** и **Центр обновления Windows**.
 *   Блокирует интеграцию с **Bing**, **предложения приложений**, **новости и интересы** и телеметрию, где это возможно.
 *   Предотвращает автоматические перезагрузки после обновлений.
 
-### 🎨 **Визуальная Настройка и Интерфейс**
+### <img width="30" height="30" alt="palette" src="https://github.com/user-attachments/assets/1478ea54-2ef9-4346-995c-854aeeae4f79" /> **Визуальная Настройка и Интерфейс**
 *   Устанавливает **Темную тему** для системы и приложений.
 *   Применяет пользовательский **Цвет акцента** (`#8080FF` - приятный синий).
 *   Настраивает **Панель задач**: выравнивание по левому краю, скрытие поиска и кнопки "Представление задач", отображение всех значков в трее.
@@ -109,7 +109,7 @@ Found a bug or have an idea for an awesome new feature? Feel free to open an [is
 *   Использует **Классическое контекстное меню** и показывает **расширения файлов**.
 *   Запускает Проводник с открытием раздела **"Этот компьютер"**, а не "Быстрый доступ".
 
-### ⚙️ **Оптимизация Системы и Производительности**
+### <img width="30" height="30" alt="gear-six" src="https://github.com/user-attachments/assets/33348173-6dac-48ea-a766-5f9c6856c77a" /> **Оптимизация Системы и Производительности**
 *   Включает поддержку **длинных путей к файлам**.
 *   Разрешает выполнение **скриптов PowerShell** (политика `RemoteSigned`).
 *   Отключает запись временной метки последнего доступа к файлам (`DisableLastAccess`).
@@ -117,13 +117,13 @@ Found a bug or have an idea for an awesome new feature? Feel free to open an [is
 *   Настраивает "Активные часы" для предотвращения обновлений в неудобное время.
 *   Автоматически устанавливает **VMware Tools**, если образ подключен.
 
-### 👤 **Настройка Пользователя и Аккаунта**
+### <img width="30" height="30" alt="user" src="https://github.com/user-attachments/assets/8c27a820-b281-42ee-880d-f3d76b71cf78" /> **Настройка Пользователя и Аккаунта**
 *   Создает локальную учетную запись администратора с именем **"User"** без пароля (для первоначальной настройки).
 *   Включает **Автоматический вход** только при первой загрузке.
 *   Применяет все настройки к профилю **Пользователя по умолчанию**, поэтому каждый новый пользователь получит ту же чистую конфигурацию.
 *   Устанавливает **геолокацию** системы в Россию (ID 203) и настраивает раскладки клавиатуры для английского и русского языков.
 
-### 🌐 **Региональные настройки и Язык**
+### <img width="30" height="30" alt="planet" src="https://github.com/user-attachments/assets/a0d1e829-3dee-4347-851b-45b02336d7b7" /> **Региональные настройки и Язык**
 *   Основной язык интерфейса: **Английский (США)**
 *   Дополнительная раскладка клавиатуры: **Русская**
 *   Локаль системы: **en-US**
@@ -131,7 +131,7 @@ Found a bug or have an idea for an awesome new feature? Feel free to open an [is
 
 ---
 
-## 📥 Как Использовать
+## <img width="30" height="30" alt="book" src="https://github.com/user-attachments/assets/cd43411d-536e-49ab-a0ce-17931ec549af" /> Как Использовать
 
 1.  **Скачайте** файл `unattend.xml`.
 2.  Поместите его в корневую директорию вашего установочного носителя Windows (USB-флешка или распакованная папка ISO), рядом с папками `sources`, `boot` и т.д.
@@ -142,7 +142,7 @@ Found a bug or have an idea for an awesome new feature? Feel free to open an [is
 
 ---
 
-## ⚠️ Предупреждение
+## <img width="30" height="30" alt="seal-warning" src="https://github.com/user-attachments/assets/af8ec666-e682-4600-ae22-e3b69e2f570b" /> Предупреждение
 
 Этот скрипт предоставляется "как есть" в образовательных и удобных целях. Он вносит значительные изменения в вашу установку Windows.
 
@@ -152,6 +152,6 @@ Found a bug or have an idea for an awesome new feature? Feel free to open an [is
 
 ---
 
-## 🤝 Внесение своего вклада
+## <img width="30" height="30" alt="handshake" src="https://github.com/user-attachments/assets/89ec00de-c763-480d-8c8a-c2201c999b53" /> Внесение своего вклада
 
 Нашли ошибку или есть идея для новой функции? Не стесняйтесь открыть [issue](https://github.com/SparkleSavvy/CleanWinInst/issues) или отправить запрос на включение внесенных изменений.
