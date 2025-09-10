@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CleanWin Project</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        catppuccin: {
+                            rosewater: '#f5e0dc',
+                            flamingo: '#f2cdcd',
+                            pink: '#f5c2e7',
+                            mauve: '#cba6f7',
+                            red: '#f38ba8',
+                            maroon: '#eba0ac',
+                            peach: '#fab387',
+                            yellow: '#f9e2af',
+                            green: '#a6e3a1',
+                            teal: '#94e2d5',
+                            sky: '#89dceb',
+                            sapphire: '#74c7ec',
+                            blue: '#89b4fa',
+                            lavender: '#b4befe',
+                            text: '#cdd6f4',
+                            subtext1: '#bac2de',
+                            subtext0: '#a6adc8',
+                            overlay2: '#9399b2',
+                            overlay1: '#7f849c',
+                            overlay0: '#6c7086',
+                            surface2: '#585b70',
+                            surface1: '#45475a',
+                            surface0: '#313244',
+                            base: '#1e1e2e',
+                            mantle: '#181825',
+                            crust: '#11111b',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #1e1e2e;
+            color: #cdd6f4;
+        }
+        .feature-card {
+            transition: all 0.3s ease;
+            border-radius: 12px;
+        }
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+        }
+        .icon-bg {
+            background: linear-gradient(135deg, #89b4fa, #cba6f7);
+        }
+        .pulse {
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0% { box-shadow: 0 0 0 0 rgba(137, 180, 250, 0.4); }
+            70% { box-shadow: 0 0 0 10px rgba(137, 180, 250, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(137, 180, 250, 0); }
+        }
+        pre {
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            background-color: #313244;
+            border-radius: 8px;
+            padding: 1rem;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+    </style>
+</head>
+<body class="bg-catppuccin-base text-catppuccin-text">
+    <!-- Header -->
+    <header class="py-6 px-4 sm:px-8 bg-catppuccin-mantle border-b border-catppuccin-surface0">
+        <div class="container mx-auto flex flex-col sm:flex-row justify-between items-center">
+            <div class="flex items-center mb-4 sm:mb-0">
+                <div class="w-12 h-12 rounded-full bg-catppuccin-blue flex items-center justify-center mr-3 pulse">
+                    <i class="fas fa-wind text-catppuccin-base text-2xl"></i>
+                </div>
+                <h1 class="text-3xl font-bold bg-gradient-to-r from-catppuccin-blue to-catppuccin-lavender bg-clip-text text-transparent">
+                    CleanWin Project
+                </h1>
+            </div>
+            <div class="flex space-x-4">
+                <a href="https://github.com/SparkleSavvy/CleanWinInst" target="_blank" class="bg-catppuccin-surface0 hover:bg-catppuccin-surface1 text-catppuccin-text py-2 px-4 rounded-lg transition duration-300 flex items-center">
+                    <i class="fab fa-github mr-2"></i> GitHub
+                </a>
+                <a href="#" class="bg-catppuccin-surface0 hover:bg-catppuccin-surface1 text-catppuccin-text py-2 px-4 rounded-lg transition duration-300 flex items-center">
+                    <i class="fab fa-discord mr-2"></i> Discord
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="py-16 px-4 sm:px-8 bg-catppuccin-mantle">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-catppuccin-green to-catppuccin-teal bg-clip-text text-transparent">
+                Ultimate Windows Unattended Installation & Customization Script
+            </h2>
+            <p class="text-xl max-w-3xl mx-auto mb-8 text-catppuccin-subtext0">
+                Deploy a clean, fresh, and highly customized Windows installation — completely unattended. 
+                Forget about tedious post-installation tweaking.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <button class="bg-catppuccin-blue hover:bg-catppuccin-lavender text-catppuccin-base font-bold py-3 px-8 rounded-lg transition duration-300 transform hover:scale-105">
+                    <i class="fas fa-download mr-2"></i> Download Script
+                </button>
+                <button class="bg-catppuccin-surface0 hover:bg-catppuccin-surface1 text-catppuccin-text font-bold py-3 px-8 rounded-lg transition duration-300 border border-catppuccin-overlay0">
+                    <i class="fas fa-book mr-2"></i> Documentation
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-16 px-4 sm:px-8">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-12 text-catppuccin-text">
+                <i class="fas fa-stars mr-2 text-catppuccin-yellow"></i> Key Features
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Bloatware Removal -->
+                <div class="feature-card bg-catppuccin-surface0 p-6 border border-catppuccin-surface1">
+                    <div class="flex items-center mb-4">
+                        <div class="icon-bg w-12 h-12 rounded-lg flex items-center justify-center mr-4">
+                            <i class="fas fa-broom text-catppuccin-base text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-catppuccin-text">Bloatware Removal</h3>
+                    </div>
+                    <ul class="space-y-2 text-catppuccin-subtext0">
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-catppuccin-green mt-1 mr-2"></i>
+                            <span>Prevents installation of unwanted built-in apps</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-catppuccin-green mt-1 mr-2"></i>
+                            <span>Removes optional Windows Features</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-catppuccin-green mt-1 mr-2"></i>
+                            <span>Removes system Capabilities</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Privacy & Security -->
+                <div class="feature-card bg-catppuccin-surface0 p-6 border border-catppuccin-surface1">
+                    <div class="flex items-center mb-4">
+                        <div class="icon-bg w-12 h-12 rounded-lg flex items-center justify-center mr-4">
+                            <i class="fas fa-shield-alt text-catppuccin-base text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-catppuccin-text">Privacy & Security</h3>
+                    </div>
+                    <ul class="space-y-2 text-catppuccin-subtext0">
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-catppuccin-green mt-1 mr-2"></i>
+                            <span>Disables Windows Defender during installation</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-catppuccin-green mt-1 mr-2"></i>
+                            <span>Blocks Bing integration and telemetry</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-catppuccin-green mt-1 mr-2"></i>
+                            <span>Disables SmartScreen and Fast Startup</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Visual Customization -->
+                <div class="feature-card bg-catppuccin-surface0 p-6 border border-catppuccin-surface1">
+                    <div class="flex items-center mb-4">
+                        <div class="icon-bg w-12 h-12 rounded-lg flex items-center justify-center mr-4">
+                            <i class="fas fa-palette text-catppuccin-base text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-catppuccin-text">Visual & UI Customization</h3>
+                    </div>
+                    <ul class="space-y-2 text-catppuccin-subtext0">
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-catppuccin-green mt-1 mr-2"></i>
+                            <span>Sets Dark Theme for System and Apps</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-catppuccin-green mt-1 mr-2"></i>
+                            <span>Configures Taskbar and Start Menu</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-catppuccin-green mt-1 mr-2"></i>
+                            <span>Uses Classic Context Menu and shows File Extensions</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- System Optimization -->
+                <div class="feature-card bg-catppuccin-surface0 p-6 border border-catppuccin-surface1">
+                    <div class="flex items-center mb-4">
+                        <div class="icon-bg w-12 h-12 rounded-lg flex items-center justify-center mr-4">
+                            <i class="fas fa-cogs text-catppuccin-base text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-catppuccin-text">System Optimization</h3>
+                    </div>
+                    <ul class="space-y-2 text-catppuccin-subtext0">
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-catppuccin-green mt-1 mr-2"></i>
+                            <span>Enables Long File Paths support</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-catppuccin-green mt-1 mr-2"></i>
+                            <span>Allows PowerShell Scripts to run</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-catppuccin-green mt-1 mr-2"></i>
+                            <span>Bypasses TPM and Secure Boot checks</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- User Setup -->
+                <div class="feature-card bg-catppuccin-surface0 p-6 border border-catppuccin-surface1">
+                    <div class="flex items-center mb-4">
+                        <div class="icon-bg w-12 h-12 rounded-lg flex items-center justify-center mr-4">
+                            <i class="fas fa-user text-catppuccin-base text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-catppuccin-text">User & Account Setup</h3>
+                    </div>
+                    <ul class="space-y-2 text-catppuccin-subtext0">
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-catppuccin-green mt-1 mr-2"></i>
+                            <span>Creates local administrator account</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-catppuccin-green mt-1 mr-2"></i>
+                            <span>Enables Auto-Logon for first boot</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-catppuccin-green mt-1 mr-2"></i>
+                            <span>Applies customizations to Default User profile</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Regional Settings -->
+                <div class="feature-card bg-catppuccin-surface0 p-6 border border-catppuccin-surface1">
+                    <div class="flex items-center mb-4">
+                        <div class="icon-bg w-12 h-12 rounded-lg flex items-center justify-center mr-4">
+                            <i class="fas fa-globe text-catppuccin-base text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-catppuccin-text">Regional & Language</h3>
+                    </div>
+                    <ul class="space-y-2 text-catppuccin-subtext0">
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-catppuccin-green mt-1 mr-2"></i>
+                            <span>Primary UI Language: English (US)</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-catppuccin-green mt-1 mr-2"></i>
+                            <span>Additional Keyboard Layout: Russian</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-catppuccin-green mt-1 mr-2"></i>
+                            <span>Time Zone: Russian Standard Time</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How to Use Section -->
+    <section class="py-16 px-4 sm:px-8 bg-catppuccin-mantle">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-12 text-catppuccin-text">
+                <i class="fas fa-book-open mr-2 text-catppuccin-blue"></i> How to Use
+            </h2>
+            <div class="max-w-3xl mx-auto">
+                <ol class="space-y-6">
+                    <li class="flex items-start">
+                        <div class="bg-catppuccin-blue text-catppuccin-base font-bold rounded-full w-8 h-8 flex items-center justify-center mr-4 flex-shrink-0">1</div>
+                        <p class="text-catppuccin-subtext0"><span class="font-semibold text-catppuccin-text">Download</span> the `unattend.xml` file.</p>
+                    </li>
+                    <li class="flex items-start">
+                        <div class="bg-catppuccin-blue text-catppuccin-base font-bold rounded-full w-8 h-8 flex items-center justify-center mr-4 flex-shrink-0">2</div>
+                        <p class="text-catppuccin-subtext0"><span class="font-semibold text-catppuccin-text">Place</span> it in the root directory of your Windows installation media (USB drive or extracted ISO folder), alongside the `sources`, `boot`, etc., folders.</p>
+                    </li>
+                    <li class="flex items-start">
+                        <div class="bg-catppuccin-blue text-catppuccin-base font-bold rounded-full w-8 h-8 flex items-center justify-center mr-4 flex-shrink-0">3</div>
+                        <p class="text-catppuccin-subtext0"><span class="font-semibold text-catppuccin-text">Boot</span> from the media. The Windows Setup will automatically detect and apply all configurations.</p>
+                    </li>
+                    <li class="flex items-start">
+                        <div class="bg-catppuccin-blue text-catppuccin-base font-bold rounded-full w-8 h-8 flex items-center justify-center mr-4 flex-shrink-0">4</div>
+                        <p class="text-catppuccin-subtext0"><span class="font-semibold text-catppuccin-text">Sit back, relax</span>, and watch your perfectly customized Windows install itself!</p>
+                    </li>
+                </ol>
+                <div class="mt-8 p-4 bg-catppuccin-surface0 border-l-4 border-catppuccin-yellow rounded">
+                    <p class="text-catppuccin-yellow">
+                        <i class="fas fa-exclamation-triangle mr-2"></i>
+                        <span class="font-semibold">Important:</span> The script includes a command to download and execute a script from `https://get.activated.win` during the first user logon. This is typically used for activation. <span class="font-semibold">Use this only if you trust the source.</span> You can easily remove or modify this command in the XML if needed.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Disclaimer Section -->
+    <section class="py-16 px-4 sm:px-8">
+        <div class="container mx-auto max-w-3xl">
+            <div class="bg-catppuccin-surface0 p-8 rounded-xl border border-catppuccin-red">
+                <h2 class="text-2xl font-bold text-center mb-6 text-catppuccin-red">
+                    <i class="fas fa-exclamation-circle mr-2"></i> Disclaimer
+                </h2>
+                <p class="text-catppuccin-subtext0 mb-4">
+                    This script is provided "as is" for educational and convenience purposes. It makes significant changes to your Windows installation.
+                </p>
+                <div class="flex items-center p-4 bg-catppuccin-mantle rounded-lg">
+                    <i class="fas fa-shield-alt text-catppuccin-blue text-2xl mr-4"></i>
+                    <p class="text-catppuccin-text">
+                        <span class="font-semibold">Always test in a virtual machine or non-critical system before deploying to production.</span>
+                    </p>
+                </div>
+                <p class="text-center mt-6 text-catppuccin-subtext0">
+                    Use responsibly!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- License Section -->
+    <section class="py-16 px-4 sm:px-8 bg-catppuccin-mantle">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-12 text-catppuccin-text">
+                <i class="fas fa-file-contract mr-2 text-catppuccin-green"></i> License
+            </h2>
+            <div class="max-w-4xl mx-auto">
+                <pre class="text-catppuccin-subtext0">MIT License
+
+Copyright (c) 2025 SparkleSavvy
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.</pre>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contributing Section -->
+    <section class="py-16 px-4 sm:px-8">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-6 text-catppuccin-text">
+                <i class="fas fa-hands-helping mr-2 text-catppuccin-green"></i> Contributing
+            </h2>
+            <p class="text-xl max-w-2xl mx-auto mb-8 text-catppuccin-subtext0">
+                Found a bug or have an idea for an awesome new feature? Feel free to open an issue or submit a pull request.
+            </p>
+            <a href="https://github.com/SparkleSavvy/CleanWinInst/issues" target="_blank" class="inline-flex items-center bg-catppuccin-green hover:bg-catppuccin-teal text-catppuccin-base font-bold py-3 px-6 rounded-lg transition duration-300">
+                <i class="fab fa-github mr-2"></i> Report Issue on GitHub
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 px-4 sm:px-8 bg-catppuccin-crust border-t border-catppuccin-surface0">
+        <div class="container mx-auto text-center">
+            <p class="text-catppuccin-subtext0">
+                © 2025 CleanWin Project. All rights reserved.
+            </p>
+            <div class="mt-4 flex justify-center space-x-6">
+                <a href="https://github.com/SparkleSavvy/CleanWinInst" target="_blank" class="text-catppuccin-subtext0 hover:text-catppuccin-blue transition duration-300">
+                    <i class="fab fa-github text-xl"></i>
+                </a>
+                <a href="#" class="text-catppuccin-subtext0 hover:text-catppuccin-blue transition duration-300">
+                    <i class="fab fa-discord text-xl"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
