@@ -1,4 +1,4 @@
-# 🚀 Ultimate Windows Unattended Installation & Customization Script
+# 🚀 Ultimate Windows Unattended Installation & Customization Script `eng`
 
 Welcome to the ultimate, all-in-one solution for deploying a clean, bresh, and highly customized Windows installation — completely unattended. Forget about tedious post-installation tweaking. This script does it all for you, from disabling bloatware to optimizing system performance and personalizing your desktop experience.
 
@@ -78,7 +78,7 @@ Found a bug or have an idea for an awesome new feature? Feel free to open an [is
 
 ---
 
-# 🚀 Универсальный скрипт для автоматической установки и настройки Windows
+# 🚀 Универсальный скрипт для автоматической установки и настройки Windows `rus`
 
 Добро пожаловать в универсальное, комплексное решение для развертывания чистой, свежей и глубоко кастомизированной установки Windows — полностью в автоматическом режиме. Забудьте о рутинной настройке после установки. Этот скрипт сделает всё за вас: от удаления ненужного софта до оптимизации производительности и персонализации интерфейса.
 
