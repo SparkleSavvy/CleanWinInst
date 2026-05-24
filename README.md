@@ -16,7 +16,7 @@ Perfect for system administrators, IT professionals, homelab enthusiasts, or any
 *   Removes system **Capabilities** (Internet Explorer, Windows Media Player, Fax and Scan, Math Recognizer, etc.).
 
 ### <img width="30" height="30" alt="shield" src="https://github.com/user-attachments/assets/5c688a51-8a1b-4cda-8a4f-29f7664851ba" /> **Privacy & Security Hardening (Your Way)**
-*   Disables **SmartScreen**, **Fast Startup**, **System Restore**, **Device Encryption**, and **Windows Update**.
+*   Disables **SmartScreen**, **Fast Startup**, **Device Encryption**, and **Windows Update**.
 *   Blocks **Bing integration**, **app suggestions**, **news and interests**, and telemetry where possible.
 *   Prevents automatic reboots after updates.
 
@@ -95,7 +95,7 @@ Found a bug or have an idea for an awesome new feature? Feel free to open an [is
 *   Удаляет системные **Возможности** (Internet Explorer, Проигрыватель Windows Media, Факс и сканирование, Распознаватель математики и т.д.).
 
 ### <img width="30" height="30" alt="shield" src="https://github.com/user-attachments/assets/5c688a51-8a1b-4cda-8a4f-29f7664851ba" /> **Приватность и Безопасность (На Ваш Вкус)**
-*   Отключает **SmartScreen**, **Быстрый запуск**, **Восстановление системы**, **Шифрование устройства** и **Центр обновления Windows**.
+*   Отключает **SmartScreen**, **Быстрый запуск**, **Шифрование устройства** и **Центр обновления Windows**.
 *   Блокирует интеграцию с **Bing**, **предложения приложений**, **новости и интересы** и телеметрию, где это возможно.
 *   Предотвращает автоматические перезагрузки после обновлений.
 
